@@ -13,4 +13,15 @@ switcher.addEventListener('click', function() {
         this.textContent = "Light";
     }
 
+
+    console.log(className);
 });
+
+const switcher2 = document.querySelector('.btn2');
+
+switcher2.addEventListener('click',function(){
+    alert("Hello world");
+});
+
+const txt1 = document.querySelector('.txt1')
+const tx2 = document.querySelector('.txt2')
